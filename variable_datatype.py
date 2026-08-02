@@ -152,3 +152,6 @@ print(type(the_tuple))
 my_dict = {1: 'Wilson', 2: 'Kennedy'}
 print(type(my_dict))
  
+my_list = [10, 20, 30.67, 'Python', 'Java', 200]
+# To print only datatype of variable
+print(type(my_list).__name__)
