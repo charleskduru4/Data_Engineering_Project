@@ -127,6 +127,28 @@ print(the_list[0])
 the_list.append(100)
 print(the_list)
 
-    
-    
-    
+"""
+To get the data type of variable: What is store in a variable (Object), can be any 
+type like int, float, str, list, tuple, dict etc. there is a built-in function called
+type()
+syntax of type(): type(<variable_name>)
+"""
+# Example
+a = 100
+print(type(a))
+
+bf = 200.87
+print(type(bf))
+
+my_list = [10, 20, 40, 34.80, 100]
+print(type(my_list))
+
+my_set = {'Johnson', 'Samuel', 'Jesse', 'Kelly'}
+print(type(my_set))
+
+the_tuple = (5, 10, 15, 20, 25)
+print(type(the_tuple))
+
+my_dict = {1: 'Wilson', 2: 'Kennedy'}
+print(type(my_dict))
+ 
