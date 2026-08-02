@@ -94,6 +94,38 @@ print(len(str))
 # To concatenate string
 print(str + "TEST")
 
+"""
+List type variable to represent a group of element or value as a single entity we should 
+go for list variable type. For example, we can use to store student names.
+The character of list:
+1. Insertion order of element is preserved
+2. Heterogenous is allow (int, float, string)
+3. duplication of elements are permitted
+4. List is mutable(can change)
+5. List element should be enclose within a square bracket
+"""
+# Example
+the_list = ['Jesse', 20, 40, 'Charles', 'Jessica', 50, 10.5]
+
+# To print the complete list
+print(the_list)
+
+# To access 1st element of a list
+print(the_list[0])
+
+# to access the last element on the list
+print(the_list[-1])
+
+# To access chunks of element in the list
+print(the_list[1:4])
+
+# To modify first element in the list
+the_list[0] = 'Micheal'
+print(the_list[0])
+
+# To add one or more element into the list
+the_list.append(100)
+print(the_list)
 
     
     
