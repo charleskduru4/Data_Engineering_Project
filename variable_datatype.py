@@ -53,6 +53,48 @@ print(var)
 
 # print its type
 print(type(var))
+
+"""
+Create Number, String, list variable
+Number is a data type that store numeric value which can be of the type:
+int --> integer
+float --> decimal
+complex
+"""
+# Example of integer:
+age: int = 28
+print(age)
+print(type(age))
+
+# Float are value with decimal
+# create float variable
+salary: float = 10800.77
+print(salary)
+print(type(salary))
+
+"""
+String variable in python is a set of characters represented in quotation mark.
+python allows us to define a string in either pair of single or double.
+To retrieve a piece of string from a given string, we can use the slice [] or [:]
+To concatenate two string, we can use the addition(+) operator. 
+"""
+# Create a variable of the type string
+str = 'PYnative'
+# print the full string
+print(str)
+# Print the first character of the string
+print(str[0])
+
+# print character starting from 2nd to 5th
+print(str[2:5])
+
+# To print the length of the string
+print(len(str))
+
+# To concatenate string
+print(str + "TEST")
+
+
     
     
     
